@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+    <section class="menu">
+        <div class="title">
+            <h2>Our Menu</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="btn-container">
+            <button type="button" class="filter-btn" data-id="all">all</button>
+                <button type="button" class="filter-btn" data-id="breakfast">
+                  breakfast
+                </button>
+                <button type="button" class="filter-btn" data-id="lunch">lunch</button>
+                <button type="button" class="filter-btn" data-id="shakes">
+                  shakes
+                </button>
+        </div>
+        <div class="section-center">
+            <article class='menu-item'>
+                <img src="./menu-item.jpeg" class='photo' alt="menu-item">
+                <div class="item-info">
+                    <header>
+                        <h4>buttermilk pancakes</h4>
+                        <h4 class="price">Rs.65</h4>
+                    </header>
+                    <p class='item-text'>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto?
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
